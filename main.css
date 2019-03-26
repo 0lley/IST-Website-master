@@ -63,6 +63,7 @@ h1 {
 }
 
 .body-image {
+    padding: 0% 2.5% 0% 2.5%;
     display: inline-block;
     text-align: center;
 }
