@@ -4,14 +4,14 @@
 html {height: 100%}
 
 .banner-image-container {
-    background-image: url("Snowy_forest 3.png");
+    background-image: url("content/Snowy_forest 3.png");
     min-height: 32.5%;
     margin: 0% 0% 0.75% 0%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* filter: blur(2px); */
+    filter: opacity(50px);
 }
 
 body {
@@ -33,14 +33,9 @@ body {
     padding: 0.5%;
     border-top: 0.015em solid black;
     border-bottom: 0.015em solid black;
-}
-
-h1 {
-    margin: 0% 12.5% 0% 12.5%;
-    padding: 0.25%;
     text-align: center;
-    font-size: 500%;
-    font-family: 'Questrial', sans-serif;
+    font-size: 425%;
+    font-family: 'Merriweather' sans-serif;
     font-style: light;
     color: #333333;
 }
@@ -63,7 +58,9 @@ h1 {
 }
 
 .body-image {
-    padding: 0% 1% 0% 1%;
     display: inline-block;
     text-align: center;
+    height: 15rem;
+    /* border: 2px solid black; */
+    box-shadow: inset 0px 0px 40px 40px #F7F5F5;
 }
