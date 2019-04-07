@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oxygen|Merriweather|Questrial|Nunito:300|IBM+Plex+Sans:300i");
+@import url("https://fonts.googleapis.com/css?family=Oxygen|Merriweather:300i|Questrial|Nunito:300|IBM+Plex+Sans:300i");
 *{ box-sizing: border-box}
 
 html {height: 100%}
@@ -33,10 +33,47 @@ body {
     border-top: 0.015em solid black;
     border-bottom: 0.015em solid black;
     text-align: center;
-    font-size: 8.5vh;
+    font-size: 500%;
     font-family: 'Merriweather' sans-serif;
-    font-style: ital;
     color: #333333;
+}
+
+.body-container {
+    width: 56vw;
+    display: inline-block;
+    margin: 0.5% 22% 1.5% 22%;
+    padding: 1% 1.2% 1% 1.2%;
+}
+
+.info-container {
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 2;
+    font-size: 138%;
+    word-spacing: 0.1em;
+    color: #333333;
+}
+
+.subtitle {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 200%;
+}
+
+.body-image-container {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Nunito', sans-serif;
+}
+
+.body-image {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 28em;
+    height: 15.75em;
+    padding: 0% 0.25% 0% 0.25%;
+    /* border: 2px solid black; */
+    box-shadow: inset 0px 0px 40px 40px #F7F5F5;
 }
 
 .list-left {
@@ -50,7 +87,7 @@ body {
     list-style-type: none;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: left;
-    font-size: 2.5vh;
+    font-size: 150%;
 }
   
 .list-left a {
@@ -68,36 +105,4 @@ body {
 .list-left a:hover:not(.active) {
     background-color: #777;
     color: #F7F5F5;
-}
-
-.body-container {
-    width: 56vw;
-    display: inline-block;
-    margin: 0.5% 22% 1.5% 22%;
-    padding: 1% 1.2% 1% 1.2%;
-}
-
-.info-container {
-    text-align: left;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 2;
-    font-size: 2.2vh;
-    word-spacing: 0.1em;
-    color: #333333;
-}
-
-.body-image-container {
-    text-align: center;
-    vertical-align: middle;
-    font-family: 'Nunito', sans-serif;
-}
-
-.body-image {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    width: 49.75%;
-    padding: 0% 0.25% 0% 0.25%;
-    /* border: 2px solid black; */
-    box-shadow: inset 0px 0px 40px 40px #F7F5F5;
 }
