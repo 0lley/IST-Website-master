@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oxygen|Questrial|Nunito");
+@import url("https://fonts.googleapis.com/css?family=Oxygen|Questrial|Nunito:300|IBM+Plex+Sans:300i");
 *{ box-sizing: border-box}
 
 html {height: 100%}
@@ -40,13 +40,34 @@ body {
 }
 
 .list-left {
-    list-style-type: none;
+    width: 15%;
     padding: 0;
-    width: 14%;
-    background-color: #f1f1f1;
+    background-color: #F7F5F5;
     position: fixed;
-    height: 40%;
+    height: 30%;
+    bottom: 32.5%;
     overflow: auto;
+    list-style-type: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: left;
+    font-size: 120%;
+}
+  
+.list-left a {
+    display: block;
+    color: #000;
+    padding: 5% 25%;
+    text-decoration: none;
+}
+  
+.list-left a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+.list-left a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
 
 .body-container {
@@ -76,21 +97,4 @@ body {
     height: 15rem;
     /* border: 2px solid black; */
     box-shadow: inset 0px 0px 40px 40px #F7F5F5;
-}
-  
-.list-left a {
-    display: block;
-    color: #000;
-    padding: 6%;
-    text-decoration: none;
-}
-  
-.list-left a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-  
-.list-left a:hover:not(.active) {
-    background-color: #555;
-    color: white;
 }
