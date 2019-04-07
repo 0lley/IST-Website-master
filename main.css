@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oxygen|Questrial|Nunito:300|IBM+Plex+Sans:300i");
+@import url("https://fonts.googleapis.com/css?family=Oxygen|Merriweather|Questrial|Nunito:300|IBM+Plex+Sans:300i");
 *{ box-sizing: border-box}
 
 html {height: 100%}
@@ -33,45 +33,45 @@ body {
     border-top: 0.015em solid black;
     border-bottom: 0.015em solid black;
     text-align: center;
-    font-size: 425%;
+    font-size: 8.5vh;
     font-family: 'Merriweather' sans-serif;
-    font-style: light;
+    font-style: ital;
     color: #333333;
 }
 
 .list-left {
-    width: 15%;
+    width: 12%;
     padding: 0;
     background-color: #F7F5F5;
     position: fixed;
     height: 30%;
-    bottom: 32.5%;
+    top: 32.5%;
     overflow: auto;
     list-style-type: none;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: left;
-    font-size: 120%;
+    font-size: 2.5vh;
 }
   
 .list-left a {
     display: block;
     color: #000;
-    padding: 5% 25%;
+    padding: 4.75% 15%;
     text-decoration: none;
 }
   
 .list-left a.active {
     background-color: #4CAF50;
-    color: white;
+    color: #F7F5F5;
 }
   
 .list-left a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: #777;
+    color: #F7F5F5;
 }
 
 .body-container {
-    width: 56%;
+    width: 56vw;
     display: inline-block;
     margin: 0.5% 22% 1.5% 22%;
     padding: 1% 1.2% 1% 1.2%;
@@ -81,20 +81,23 @@ body {
     text-align: left;
     font-family: 'Nunito', sans-serif;
     font-weight: 2;
-    font-size: 132.5%;
-    word-spacing: 0.2em;
+    font-size: 2.2vh;
+    word-spacing: 0.1em;
     color: #333333;
 }
 
 .body-image-container {
     text-align: center;
+    vertical-align: middle;
     font-family: 'Nunito', sans-serif;
 }
 
 .body-image {
     display: inline-block;
     text-align: center;
-    height: 15rem;
+    vertical-align: middle;
+    width: 49.75%;
+    padding: 0% 0.25% 0% 0.25%;
     /* border: 2px solid black; */
     box-shadow: inset 0px 0px 40px 40px #F7F5F5;
 }
