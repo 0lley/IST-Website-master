@@ -20,7 +20,7 @@ body {
     height: 100%;
 }
 
-.headhead-container{
+.sticky-head-container{
     position: sticky;
     top: 0;
     margin: 0.5% 15% 0.5% 15%;
@@ -45,6 +45,11 @@ body {
     padding: 1% 1.2% 1% 1.2%;
 }
 
+.subtitle {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 200%;
+}
+
 .info-container {
     text-align: left;
     font-family: 'Nunito', sans-serif;
@@ -52,11 +57,6 @@ body {
     font-size: 138%;
     word-spacing: 0.1em;
     color: #333333;
-}
-
-.subtitle {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 200%;
 }
 
 .body-image-container {
@@ -70,7 +70,7 @@ body {
     text-align: center;
     vertical-align: middle;
     width: 28em;
-    height: 15.75em;
+    height: 16.5em;
     padding: 0% 0.25% 0% 0.25%;
     /* border: 2px solid black; */
     box-shadow: inset 0px 0px 40px 40px #F7F5F5;
@@ -82,14 +82,15 @@ body {
     background-color: #F7F5F5;
     position: fixed;
     height: 30%;
-    top: 32.5%;
+    /* top: 32.5%; */
+    bottom: 32.5%;
     overflow: auto;
     list-style-type: none;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: left;
     font-size: 125%;
 }
-  
+
 .list-left a {
     display: block;
     color: #000;
@@ -105,4 +106,31 @@ body {
 .list-left a:hover:not(.active) {
     background-color: #777;
     color: #F7F5F5;
+}
+
+.footer {
+    background-color: rgba(0,0,0, 0.4);
+    color: #F7F5F5;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 125%;
+    border: 0.02em solid #f1f1f1;
+    margin: 0% 4% 0% 4%;
+    transform: translate(0, 65%);
+    text-align: center;
+  }
+
+a.reference:link {
+  color: #F7F5F5;
+}
+
+a.reference:visited {
+  color: #F7F5F5;
+}
+
+a.reference:hover {
+  color: #F7F5F5;
+}
+
+a.reference:active {
+  color: #F7F5F5;
 }
