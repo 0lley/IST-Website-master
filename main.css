@@ -23,12 +23,12 @@ body {
 .headhead-container{
     position: sticky;
     top: 0;
-    margin: 0.5% 0.5% 0.5% 0.5%;
+    margin: 0.5% 15% 0.5% 15%;
     background-color: #F7F5F5;
 }
 
 .head-container {
-    margin: 0.5% 15% 0.5% 15%;
+    margin: 0.5% 0% 0.5% 0%;
     padding: 0.5%;
     border-top: 0.015em solid black;
     border-bottom: 0.015em solid black;
@@ -39,39 +39,24 @@ body {
     color: #333333;
 }
 
-.side-container {
-    margin: 10% 0% 10% 0%;
-}
-
-.list-container {
+.list-left {
     list-style-type: none;
-    margin: 10% 1.5% 10% 1.5%;
     padding: 0;
-    width: 11.5%;
-    border-top: 0.01em solid black;
-    border-bottom: 0.01em solid black;
+    width: 14%;
     background-color: #f1f1f1;
+    position: fixed;
+    height: 40%;
+    overflow: auto;
 }
 
-.list-container a{
-    display: block;
-    color: #000;
-    padding: 6.5% 10%;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 130%;
-    text-decoration: none;
-}
-/* Text within the list container */
-
-.list-container:hover {
-    background-color: #555;
-    color: white;
+.body-container {
+    width: 56%;
+    display: inline-block;
+    margin: 0.5% 22% 1.5% 22%;
+    padding: 1% 1.2% 1% 1.2%;
 }
 
 .info-container {
-    margin: 1% 22% 0.5% 22%;
-    padding: 1% 1.2% 1% 1.2%;
     text-align: left;
     font-family: 'Nunito', sans-serif;
     font-weight: 2;
@@ -81,7 +66,6 @@ body {
 }
 
 .body-image-container {
-    margin: 1% 22% 0.5% 22%;
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
@@ -92,4 +76,21 @@ body {
     height: 15rem;
     /* border: 2px solid black; */
     box-shadow: inset 0px 0px 40px 40px #F7F5F5;
+}
+  
+.list-left a {
+    display: block;
+    color: #000;
+    padding: 6%;
+    text-decoration: none;
+}
+  
+.list-left a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+.list-left a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
