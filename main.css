@@ -77,7 +77,7 @@ body {
 }
 
 .list-left {
-    width: 12%;
+    width: 12.6%;
     padding: 0;
     background-color: #F7F5F5;
     position: fixed;
@@ -94,7 +94,7 @@ body {
 .list-left a {
     display: block;
     color: #000;
-    padding: 4.75% 15%;
+    padding: 4.75% 5%;
     text-decoration: none;
 }
   
@@ -110,7 +110,7 @@ body {
 
 .footer {
     margin: 0% 4% 0% 4%;
-    transform: translate(0, 52.5%);
+    transform: translate(0, 50%);
     border: 0.02em solid #f1f1f1;
     background-color: rgba(0,0,0, 0.55);
     text-align: center;
@@ -130,7 +130,7 @@ a.reference:visited {
 }
 
 a.reference:hover {
-    color: rgb(190, 190, 190);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
