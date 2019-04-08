@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Oxygen|Merriweather:300i|Questrial|Nunito:300|IBM+Plex+Sans:300i");
 *{ box-sizing: border-box}
 
-html {height: 100%}
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
 
 .banner-image-container {
     background-image: url("content/Snowy_forest 3.png");
@@ -33,7 +36,7 @@ body {
     border-top: 0.015em solid black;
     border-bottom: 0.015em solid black;
     text-align: center;
-    font-size: 500%;
+    font-size: 550%;
     font-family: 'Merriweather' sans-serif;
     color: #333333;
 }
@@ -69,10 +72,9 @@ body {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    width: 28em;
-    height: 18em;
+    width: 26.5vw;
+    height: 17vw;
     padding: 0% 0.25% 0% 0.25%;
-    /* border: 2px solid black; */
     box-shadow: inset 0px 0px 40px 40px #F7F5F5;
 }
 
@@ -81,8 +83,7 @@ body {
     padding: 0;
     background-color: #F7F5F5;
     position: fixed;
-    height: 30%;
-    /* top: 32.5%; */
+    height: 31%;
     bottom: 32.5%;
     overflow: auto;
     list-style-type: none;
@@ -106,6 +107,7 @@ body {
 .list-left a:hover:not(.active) {
     background-color: #777;
     color: #F7F5F5;
+    transition: 0.25s;
 }
 
 .footer {
@@ -120,7 +122,7 @@ body {
   }
 
 a.reference:link {
-    color: rgb(210, 210, 210);
+    color: rgb(215, 215, 215);
     text-decoration: none;
 }
 
@@ -132,9 +134,12 @@ a.reference:visited {
 a.reference:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    transition: 0.6s;
 }
 
 a.reference:active {
     color: rgb(190, 190, 190);
     text-decoration: none;
 }
+
+/* TODO: Second page for 'further reading' */
