@@ -7,7 +7,7 @@ html {
 }
 
 .banner-image-container {
-    background-image: url("content/Snowy_forest 3.png");
+    background-image: url("Resources/Snowy_forest 3.png");
     min-height: 32.5%;
     margin: 0% 0% 0.75% 0%;
     background-attachment: fixed;
