@@ -72,7 +72,7 @@ body {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    width: 26.5vw;
+    width: 26.67vw;
     height: 17vw;
     padding: 0% 0.25% 0% 0.25%;
     box-shadow: inset 0px 0px 40px 40px #F7F5F5;
@@ -142,4 +142,13 @@ a.reference:active {
     text-decoration: none;
 }
 
-/* TODO: Second page for 'further reading' */
+
+.reference-info {
+    text-align: left;
+    text-indent: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 2;
+    font-size: 138%;
+    word-spacing: 0.1em;
+    color: #333333;
+}
