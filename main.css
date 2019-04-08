@@ -83,13 +83,13 @@ body {
     padding: 0;
     background-color: #F7F5F5;
     position: fixed;
-    height: 30%;
+    height: 31%;
     bottom: 32.5%;
     overflow: auto;
     list-style-type: none;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: left;
-    font-size: 125%;
+    font-size: 117.5%;
 }
 
 .list-left a {
@@ -112,7 +112,7 @@ body {
 
 .footer {
     margin: 0% 4% 0% 4%;
-    transform: translate(0, 50%);
+    transform: translate(0, 37.5%);
     border: 0.02em solid #f1f1f1;
     background-color: rgba(0,0,0, 0.55);
     text-align: center;
